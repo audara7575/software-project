@@ -6,7 +6,7 @@ $user;
 
 $user=$_SESSION['rid'] ;
 
-if($user=="Admin" || $user=="Teacher" ){
+if($user=="Admin" ){
 }
 else {
   echo "
